@@ -7,7 +7,7 @@ Read this entire document before starting your work. Complete the work in order.
 
 ## Goal
 
-Create a CRUD app using React (without Redux) that interfaces with a RESTful API powered by Node (with Express) and a database (MySQL or Postgres) from scratch.
+Create a CRUD app using React (without Redux) that interfaces with a RESTful API powered by Node (with Express) and a database (Postgres or MongoDB) from scratch.
 
 Stick to using only the official documentation and StackOverflow. Limit your use of video and blog post tutorials. Whenever you find a solution on StackOverflow, always find where in the official documentation you can find the same answer.
 
