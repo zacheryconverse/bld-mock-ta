@@ -30,5 +30,3 @@ const exampleCowData = [
     description: 'a legendary Chinese warrior from the Northern and Southern dynasties period (420–589) of Chinese history.'
   }
 ];
-
-export default exampleCowData;
