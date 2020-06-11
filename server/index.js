@@ -1,10 +1,24 @@
 const express = require('express'); // not sure what this does
 const cors = require('cors') // where to find this? Express docs!!! ???
-
 const app = express(); // not sure what this does
+const bp = require('body-parser'); // or use res.json?
+// when to use app.use(express.static(public/client)) ?? or res.sendFile() ??
 
+res.end() ??
 app.use(cors());
 const port = 8080;
+// get all -- find -- err handler
+app.get('/api/cows', (req, res) => {
+  .then(data => res.json(data))
+  .then(data => res.send(data))
+  .catch(err => err)
+});
+// create/save() status code 201 -- err handler
+app.post('/api/cows', (req, res) => {
+  .save()
+  .then(() => )
+  .catch(err = console.log(err)) // err => err ? console.err(err) ?
+})
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 // why did Cow List open in 3000/3001 ??? difference between client server and server server??
